@@ -26,7 +26,7 @@ int main (int argc, char *argv[]){
 
     /* Matrix allocation */
     size_t side = 1 << size_power; //Matrix size size = 2^size_power
-    float *A, *B, *C;              //Matrices
+    float *A, *B, *C;              //Matrices feanor pls help
     allocate (&A, &B, &C, side);
 
     /* Input computation */

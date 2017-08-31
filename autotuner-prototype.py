@@ -9,7 +9,7 @@ import time # for time
 def tuner(argv):
     exec_file = 'matmult'
     compilation_line = ['gcc','-o3','-o',exec_file,'mm.c']
-    steps = ['-DSTEP=16']
+    steps = ['-DSTEP=64']
 
     # Compile code
     compilation_try = subprocess.run(compilation_line+steps)
